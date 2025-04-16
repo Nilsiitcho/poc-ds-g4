@@ -1,8 +1,11 @@
-:root {
-    --color-border: #d1d5db;
-    --color-background: #ffffff;
-    --color-foreground: #111827;
-    --color-ring: #6366f1;
-    --color-primary-foreground: red;
-    --radius-md: 8px;
+@import "./typography.css";
+
+.display-xl-bold {
+    font: var(--font-display-xl-bold);
+    letter-spacing: var(--letter-spacing-display-xl-bold);
+}
+
+.display-xl-semibold {
+    font: var(--font-display-xl-semibold);
+    letter-spacing: var(--letter-spacing-display-xl-semibold);
 }
