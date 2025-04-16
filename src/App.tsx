@@ -1,11 +1,11 @@
-import { Button } from "@/components/atoms"
+import { Button } from '@/components/atoms';
 
 function App() {
-    return (
-        <div className="flex flex-col items-center justify-center min-h-svh">
-            <Button>Click me</Button>
-        </div>
-    )
+  return (
+    <div className="flex flex-col items-center justify-center min-h-svh">
+      <Button>Click me</Button>
+    </div>
+  );
 }
 
-export default App
+export default App;
