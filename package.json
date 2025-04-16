@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsup src/index.ts --dts --format esm,cjs --outDir dist",
-    "build.prod": "tsup --minify src/index.ts --dts --format esm,cjs --outDir dist",
+    "build.prod": "tsup --minify src/index.ts --dts --format esm,cjs --outDir dist --log-level info",
     "lint": "eslint . --ext .ts,.tsx --report-unused-disable-directives --max-warnings=0",
     "format": "prettier --write .",
     "preview": "vite preview",

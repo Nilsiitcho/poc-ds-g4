@@ -8,7 +8,7 @@
 @tailwind utilities;
 
 @theme inline {
-    --color-tete: red;
+    --color-tete: purple;
 }
 
 
