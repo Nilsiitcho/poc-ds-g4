@@ -1,2 +1,1 @@
-export * from "./tokens"
-export { default as tokensCss } from "./tokens/index.css?inline"
+export * from './components';
